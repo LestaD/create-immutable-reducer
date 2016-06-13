@@ -16,6 +16,9 @@
   "devDependencies": {
     "immutable": "^3.7.5"
   },
+  "engines": {
+    "node": "=> 4.0.0"
+  },
   "keywords": [
     "reducer",
     "immutable",
