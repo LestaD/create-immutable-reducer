@@ -1,0 +1,38 @@
+{
+  "name": "create-immutable-reducer",
+  "version": "0.9.0",
+  "description": "Create reducer from object of action handlers for use with redux and immutable for state.",
+  "main": "lib/createReducer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LestaD/create-immutable-reducer.git"
+  },
+  "peerDependencies": {
+    "immutable": "^3.7.5"
+  },
+  "devDependencies": {
+    "immutable": "^3.7.5"
+  },
+  "keywords": [
+    "reducer",
+    "immutable",
+    "redux",
+    "react",
+    "flux",
+    "object",
+    "action",
+    "js",
+    "create",
+    "reduce",
+    "store"
+  ],
+  "author": "Sergey Sova <i.am@lestad.net> (https://lestad.top)",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/LestaD/create-immutable-reducer/issues"
+  },
+  "homepage": "https://github.com/LestaD/create-immutable-reducer#readme"
+}
