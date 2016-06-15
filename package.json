@@ -4,7 +4,8 @@
   "description": "Create reducer from object of action handlers for use with redux and immutable for state.",
   "main": "lib/createReducer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src/createReducer.js --presets es2015 > lib/createReducer.js"
   },
   "repository": {
     "type": "git",
@@ -37,5 +38,9 @@
   "bugs": {
     "url": "https://github.com/LestaD/create-immutable-reducer/issues"
   },
-  "homepage": "https://github.com/LestaD/create-immutable-reducer#readme"
+  "homepage": "https://github.com/LestaD/create-immutable-reducer#readme",
+  "dependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
 }
