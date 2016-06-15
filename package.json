@@ -1,6 +1,6 @@
 {
   "name": "create-immutable-reducer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create reducer from object of action handlers for use with redux and immutable for state.",
   "main": "lib/createReducer.js",
   "scripts": {
